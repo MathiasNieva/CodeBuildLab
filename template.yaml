@@ -49,6 +49,7 @@ Resources:
       Environment:
         Variables:
           USERS_TABLE: !Ref UsersTable
+          CODEBUILD_VARIABLE: mycodebuildvalue
       Events:
         GetUsers:
           Type: Api
